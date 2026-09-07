@@ -1,0 +1,18 @@
+class School:
+    school = "ABC School"
+    city = "Hyderabad"
+
+
+class Student(School):
+    name = "Pranay"
+    rollno = 101
+
+    def display(self):
+        print("Name:", self.name)
+        print("Roll No:", self.rollno)
+        print("School:", self.school)
+        print("City:", self.city)
+
+
+s1 = Student()
+s1.display()
