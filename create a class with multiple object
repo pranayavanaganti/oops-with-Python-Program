@@ -1,0 +1,13 @@
+class Sample:
+    def _init_(self, name, age):
+        self.name = name
+        self.age = age
+    def read(self):
+        print(self.name)
+        print(self.age)
+s1 = Sample("KPRIT", 20)
+s2 = Sample("ABC", 21)
+s3 = Sample("XYZ", 22)
+s1.read()
+s2.read()
+s3.read()
