@@ -1,0 +1,11 @@
+# Arithmetic addition
+print(4 + 3)          
+
+# String concatenation
+print("Hello " + "World")  
+ 
+#Arithmetic multiplication
+print(2*3)
+
+#String multiple times
+print("hi"*3)
