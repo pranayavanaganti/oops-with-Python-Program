@@ -1,12 +1,15 @@
-class Dog:
-def sound(self):
-print("Dog barks")
-class Cat:
-def sound(self):
-print("Cat meows")
-class Cow:
-def sound(self):
-print("Cow moos")
-animals = [Dog(), Cat(), Cow()]
-for animal in animals:
-animal.sound()
+class parent:
+    def respect(self):
+        print("Respect parents")
+class teacher:
+    def discipline(self):
+        print("Discipline is important in life ")
+class student(parent,teacher):
+    def listen(self):
+        print("follow your parents suggestions")
+s1=student()
+s1.respect()
+s1.discipline()
+s1.listen()
+
+            
