@@ -1,6 +1,6 @@
 #creating a class and object
 class student:
-    name = "SAI CHARAN"
+    name = "pranay"
     age = 19
     def read(self):
         print("reading")
