@@ -1,12 +1,9 @@
-class Student:
-    def _init_(self, name, age):
-        self.name = name
-        self.age = age
-
-    def display(self):
-        print("Name:", self.name)
-        print("Age:", self.age)
-
-
-s1 = Student("Pranay", 20)
-s1.display()
+class animal:
+    def eat(self):
+        print("animal sleep")
+class dog(animal):
+    def speak(self):
+        print("dog bark")
+d1=dog()
+d1.eat()
+d1.speak()
