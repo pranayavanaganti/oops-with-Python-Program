@@ -1,23 +1,14 @@
-class Animal:
-    def _init_(self, name, age):
-        self.name = name
-        self.age = age
+#Multi-level inheritance
+class animal:
     def eat(self):
-        print(self.name, "eats food")
+        print("animal eat")
+class mammal(animal):
     def sleep(self):
-        print(self.name, "is sleeping")
-class Dog(Animal):
-    def _init_(self, name, age, breed):
-        super()._init_(name, age)
-        self.breed = breed
-    def bark(self):
-        print(self.name, "is barking")
-    def display(self):
-        print("Name:", self.name)
-        print("Age:", self.age)
-        print("Breed:", self.breed)
-d1 = Dog("Tommy", 3, "German Shepherd")
-d1.display()
+        print("mammal sleep")
+class dog(mammal):
+    def speak(self):
+        print("Dog speak")
+d1=dog()
 d1.eat()
 d1.sleep()
-d1.bark()
+d1.speak()
