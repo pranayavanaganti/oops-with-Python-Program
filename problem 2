@@ -1,13 +1,11 @@
-class Father:
-    def father_property(self):
-        print("Father: House")
-class Mother:
-    def mother_property(self):
-        print("Mother: Car")
-class Child(Father, Mother):
-    def child_property(self):
-        print("Child: Education")
-c = Child()
-c.father_property()
-c.mother_property()
-c.child_property()
+class Demo():
+    def addition(self,a,b):
+        print(a+b)
+    def subtraction(self,a,b):
+        print(a-b)
+    def multiplication(self,a,b):
+        print(a*b)
+d1=Demo()
+d1.addition(10,20)
+d1.subtraction(40,10)
+d1.multiplication(3,10
