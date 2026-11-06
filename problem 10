@@ -1,15 +1,15 @@
-#creating a class and object
-class student:
-    name = "pranay"
-    age = 19
-    def read(self):
-        print("reading")
-    def write(self):
-        print("writing")
+class parent:
+    def respect(self):
+        print("Respect parents")
+class teacher:
+    def discipline(self):
+        print("Discipline is important in life ")
+class student(parent,teacher):
+    def listen(self):
+        print("follow your parents suggestions")
 s1=student()
-s2=student()
-s3=student()
-print(s1.name)
-print(s1.age)
-s2.read()
-s3.write()
+s1.respect()
+s1.discipline()
+s1.listen()
+
+            
