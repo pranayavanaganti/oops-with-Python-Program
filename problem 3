@@ -1,6 +1,11 @@
-class Student:
-  def display(self):
-    print("student name: pranay")
-    print("Course: B.Tech")
-    s1=student()
-    s1.display()
+class Sample():
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def read(self):
+        print(self.name)
+        print(self.age)
+s1=Sample("RAM",19)
+s1.read()
+s2=Sample("KRISH",26)
+s2.read()
